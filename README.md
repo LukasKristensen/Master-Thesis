@@ -13,3 +13,13 @@ This is a Master's Thesis for the last semester of the Master's Programme In Com
 Installing the packages required:
 ```pip install -r requirements.txt```
 
+## Dataset
+
+The dataset used for running the models is the LibriTTS corpus (cleaned), which can be accessed through the link https://openslr.org/60/.
+
+## Structure
+
+The models folder contains three different models (AE100, AE25, and AE-VQ) and a main.py, which gathers information about the dataset.
+
+## Results
+For each model and packet loss variation, a sample was plotted together with a sample that can be played compared to the ground truth and can be seen in the [Results](Results) folder.
